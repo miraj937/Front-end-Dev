@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @font-face {
+      font-family: 'young-serif';
+      src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    }
+     body {
+            font-family: young-serif, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: rgba(230, 228, 228, 0.979);
+    }
+    .hero-image{
+      background-image: url('assets/images/image-omelette.jpeg');
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      border-radius: 8px;
+    }
+    h1, h2 {
+            line-height: 1.2;
+            color: rgb(236, 151, 23);
+    }
+    .ingred{
+      color: rgb(20, 197, 20);
+      list-style: disc;
+      padding-left: 30px;
+      border-bottom: 1px solid #ccc;
+    }
+    .preparatn{
+      list-style: disc;
+      padding-left: 30px;
+      border-bottom: 1px solid #ccc;
+    }
+    .instructions{
+      border-bottom: 1px solid #ccc;
+    }
+    ul {
+            list-style-type: none;
+            padding: 0;
+    }
+
+    li {
+            margin-bottom: 0.5rem;
+    }
+    ol li::marker{
+      color: rgb(236, 151, 23);
+    }
+
+    table {
+            width: 100%;
+            border-collapse: collapse;
+    }
+
+    th, td {
+            padding: 0.5rem;
+            text-align: left;
+            border-bottom: 1px solid #ccc;
+    }
+    .nutrition td:last-child{
+      color: rgb(236, 151, 23);
+    }
+  </style>
+</head>
+<body>
+  <div class="hero-image">
+    
+  </div>
+  <h1>Simple Omelette Recipe</h1>
+  <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+
+  <h2>Ingredients</h2>
+  <ul class ="ingred">
+      <li>2-3 large eggs</li>
+      <li>Salt, to taste</li>
+      <li>Pepper, to taste</li>
+      <li>1 tablespoon of butter or oil</li>
+      <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+  </ul>
+
+  <h2>Preparation</h2>
+  <p>Total: Approximately 10 minutes</p>
+  <ul class="preparatn">
+      <li>Preparation: 5 minutes</li>
+      <li>Cooking: 5 minutes</li>
+  </ul>
+
+  <h2>Instructions</h2>
+  <ol class="instructions">
+      <li>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+      <li>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+      <li>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+      <li>Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+      <li>Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+  </ol>
+
+  <h2>Nutrition</h2>
+  <table class="nutrition">
+      <thead>
+          <tr>
+              <th>Nutrient</th>
+              <th>Value</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Calories</td>
+              <td>277kcal</td>
+          </tr>
+          <tr>
+              <td>Carbs</td>
+              <td>0g</td>
+          </tr>
+          <tr>
+              <td>Protein</td>
+              <td>20g</td>
+          </tr>
+          <tr>
+              <td>Fat</td>
+              <td>22g</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">gishaFx</a>.
+  </div>
+</body>
+</html>
